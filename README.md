@@ -2,6 +2,6 @@
 
 Type in any word to get the full definition with Examples
 
-Created using React
+Created using React with a fully integrated Dark/Light mode.
 
--Fully integrated Dark/Light Mode
+Visit the site: https://word-definer.netlify.app/
