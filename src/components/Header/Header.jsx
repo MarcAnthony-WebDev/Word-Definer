@@ -3,13 +3,13 @@ import { TextField, createTheme, ThemeProvider } from '@mui/material';
 import './Header.css';
 import categories from '../../data/category';
 
-const Header = ({ setCategory, category, word, setWord }) => {
+const Header = ({ setCategory, category, word, setWord, LightMode }) => {
   const darkTheme = createTheme({
     palette: {
       primary: {
-        main: '#fff',
+        main: LightMode ? '#000' : '#fff',
       },
-      mode: 'dark',
+      mode: LightMode ? 'light' : 'dark',
     },
   });
 
