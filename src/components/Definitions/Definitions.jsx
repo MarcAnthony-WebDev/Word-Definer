@@ -37,11 +37,6 @@ const Definitions = ({ meanings, word, LightMode, category }) => {
                     <b>Example :</b> {def.example}
                   </span>
                 )}
-                {def.synonyms && (
-                  <span>
-                    <b>Synonyms :</b> {def.synonyms.map((s) => `${s}, `)}
-                  </span>
-                )}
               </div>
             ))
           )
